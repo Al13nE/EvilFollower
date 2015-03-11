@@ -1,0 +1,10 @@
+#load CrossNetwork
+#load SecureTransportv9
+#load UFO_DataBase
+
+
+init server, client;
+server = "1.0.0.34.56.A.F.XT.R3" : "_$#12"
+
+server.onConnect = function(client.handler())
+%%TODO UPLOAD LIBS
